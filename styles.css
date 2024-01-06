@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: rgb(40, 40, 87);
+    --black: black;
+    --white: white;
+}
+
+body {
+    padding: 10px 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 300px;
+    width: 500px;
+    overflow: auto;
+    object-fit: contain;
+    display: none;
+}
+
+.show {
+    display: block;
+}
